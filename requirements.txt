@@ -9,6 +9,14 @@ nltk>=3.8.0
 gensim>=4.3.0
 
 # ===================
+# spaCy Models (install via: python -m spacy download <model>)
+# ===================
+# en_core_web_sm  - Small English model (default)
+# en_core_web_md  - Medium English model (includes word vectors)
+# en_core_web_lg  - Large English model (best accuracy)
+# fr_core_news_sm - French model (for multi-language examples)
+
+# ===================
 # Deep Learning & Transformers
 # ===================
 transformers>=4.30.0
@@ -35,6 +43,7 @@ wordcloud>=1.9.0
 jupyter>=1.0.0
 notebook>=7.0.0
 ipykernel>=6.25.0
+ipywidgets>=8.0.0
 # Security: Pin nbconvert to avoid CVE in versions <=7.16.6
 # Windows users: Set NoDefaultCurrentDirectoryInExePath=1 (Python 3.12+)
 # and avoid running nbconvert from untrusted directories until patched

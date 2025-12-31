@@ -11,12 +11,12 @@ A structured, hands-on learning repository for mastering **Natural Language Proc
 
 ## 🎯 What You'll Learn
 
-| Module                          | Topics                                          | Status         |
-| ------------------------------- | ----------------------------------------------- | -------------- |
-| Introduction to NLP             | NLP foundations, pipeline, tools overview       | ✅ Complete    |
-| Text Preprocessing              | Tokenization, stemming, lemmatization, cleaning | ⏳ Coming Soon |
-| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings        | ⏳ Coming Soon |
-| Practical NLP with Hugging Face | Transformers, fine-tuning, real-world apps      | ⏳ Coming Soon |
+| Module                          | Topics                                            | Status         |
+| ------------------------------- | ------------------------------------------------- | -------------- |
+| Introduction to NLP             | NLP foundations, pipeline, tools overview         | ✅ Complete    |
+| Text Preprocessing              | Tokenization, stemming, lemmatization, NER, regex | ✅ Complete    |
+| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings          | ⏳ Coming Soon |
+| Practical NLP with Hugging Face | Transformers, fine-tuning, real-world apps        | ⏳ Coming Soon |
 
 ---
 
@@ -32,6 +32,23 @@ step-into-nlp/
 │   ├── nlp-tools.md               # spaCy vs NLTK vs Hugging Face vs Gensim
 │   └── spacyvsnltk.ipynb          # 📓 Practical: spaCy vs NLTK comparison
 │
+├── 📗 Text Preprocessing/
+│   ├── README.md                  # Module overview with quick reference
+│   ├── tokenization.md            # Tokenization concepts & techniques
+│   ├── stemming_lemmatization.md  # Stemming vs Lemmatization guide
+│   ├── stop_words.md              # Stop words removal strategies
+│   ├── pos.md                     # Part-of-Speech tagging
+│   ├── ner.md                     # Named Entity Recognition
+│   ├── regex.md                   # Regular expressions for NLP
+│   ├── pipeline.md                # Complete preprocessing pipeline
+│   ├── tokenization.ipynb         # 📓 Tokenization hands-on
+│   ├── stemming_lemmatization.ipynb # 📓 Stemming & lemmatization
+│   ├── stop_words.ipynb           # 📓 Stop words removal
+│   ├── pos.ipynb                  # 📓 POS tagging
+│   ├── ner.ipynb                  # 📓 Named Entity Recognition
+│   ├── regex.ipynb                # 📓 Regex patterns
+│   └── pipeline.ipynb             # 📓 Complete pipeline
+│
 ├── README.md                      # You are here
 ├── requirements.txt               # Python dependencies
 ├── .gitignore                     # Git ignore rules
@@ -46,7 +63,7 @@ step-into-nlp/
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │  Introduction   │     │     Text        │     │      Text      │
 │   to NLP ✅     │ ──► │  Preprocessing  │ ──► │ Representation │
-│  (Foundations)  │     │  (Coming Soon)  │     │  (Coming Soon) │
+│  (Foundations)  │     │       ✅        │     │  (Coming Soon) │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
                                                         │
                         ┌───────────────────────────────┘
@@ -67,9 +84,16 @@ step-into-nlp/
 
 ## 📓 Notebooks
 
-| Notebook                                                       | Module              | What You'll Learn                   |
-| -------------------------------------------------------------- | ------------------- | ----------------------------------- |
-| [spacyvsnltk.ipynb](Introduction%20to%20NLP/spacyvsnltk.ipynb) | Introduction to NLP | Compare spaCy and NLTK tokenization |
+| Notebook                                                                          | Module              | What You'll Learn                       |
+| --------------------------------------------------------------------------------- | ------------------- | --------------------------------------- |
+| [spacyvsnltk.ipynb](Introduction%20to%20NLP/spacyvsnltk.ipynb)                    | Introduction to NLP | Compare spaCy and NLTK tokenization     |
+| [tokenization.ipynb](Text%20Preprocessing/tokenization.ipynb)                     | Text Preprocessing  | Word, sentence, subword tokenization    |
+| [stemming_lemmatization.ipynb](Text%20Preprocessing/stemming_lemmatization.ipynb) | Text Preprocessing  | Stemming vs lemmatization techniques    |
+| [stop_words.ipynb](Text%20Preprocessing/stop_words.ipynb)                         | Text Preprocessing  | Stop word removal with pandas           |
+| [pos.ipynb](Text%20Preprocessing/pos.ipynb)                                       | Text Preprocessing  | Part-of-speech tagging with spaCy       |
+| [ner.ipynb](Text%20Preprocessing/ner.ipynb)                                       | Text Preprocessing  | Named Entity Recognition                |
+| [regex.ipynb](Text%20Preprocessing/regex.ipynb)                                   | Text Preprocessing  | Regular expressions for text extraction |
+| [pipeline.ipynb](Text%20Preprocessing/pipeline.ipynb)                             | Text Preprocessing  | Complete NLP preprocessing pipeline     |
 
 ---
 
@@ -94,7 +118,34 @@ Foundational concepts for understanding NLP:
 
 ---
 
-## 🛠️ Setup
+## � Module: Text Preprocessing ✅
+
+Comprehensive text preprocessing techniques for NLP:
+
+| File                                                                        | Description                                      |
+| --------------------------------------------------------------------------- | ------------------------------------------------ |
+| [README.md](Text%20Preprocessing/README.md)                                 | Module overview and quick reference              |
+| [tokenization.md](Text%20Preprocessing/tokenization.md)                     | Word, sentence, character & subword tokenization |
+| [stemming_lemmatization.md](Text%20Preprocessing/stemming_lemmatization.md) | Stemming algorithms & spaCy lemmatization        |
+| [stop_words.md](Text%20Preprocessing/stop_words.md)                         | Stop word removal strategies & when to keep them |
+| [pos.md](Text%20Preprocessing/pos.md)                                       | Part-of-Speech tagging with fine-grained tags    |
+| [ner.md](Text%20Preprocessing/ner.md)                                       | Named Entity Recognition & custom entities       |
+| [regex.md](Text%20Preprocessing/regex.md)                                   | Regular expressions for text extraction          |
+| [pipeline.md](Text%20Preprocessing/pipeline.md)                             | Complete end-to-end preprocessing pipeline       |
+
+**Key Topics:**
+
+- **Tokenization** — Word, sentence, subword splitting with spaCy
+- **Normalization** — Stemming (NLTK) vs Lemmatization (spaCy)
+- **Stop Words** — Removal strategies & when NOT to remove
+- **POS Tagging** — Grammatical analysis & filtering
+- **NER** — Entity extraction, visualization, custom entities
+- **Regex** — Pattern matching for emails, phones, dates
+- **Pipeline** — Combining all techniques efficiently
+
+---
+
+## �🛠️ Setup
 
 ### Prerequisites
 

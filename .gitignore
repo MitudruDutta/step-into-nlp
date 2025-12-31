@@ -80,10 +80,7 @@ desktop.ini
 # Downloaded datasets
 data/
 datasets/
-*.csv
-*.json
 *.jsonl
-*.txt
 !requirements.txt
 
 # NLTK data (if stored locally)
