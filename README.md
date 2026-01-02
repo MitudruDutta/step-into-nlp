@@ -11,12 +11,12 @@ A structured, hands-on learning repository for mastering **Natural Language Proc
 
 ## 🎯 What You'll Learn
 
-| Module                          | Topics                                            | Status      |
-| ------------------------------- | ------------------------------------------------- | ----------- |
-| Introduction to NLP             | NLP foundations, pipeline, tools overview         | ✅ Complete |
-| Text Preprocessing              | Tokenization, stemming, lemmatization, NER, regex | ✅ Complete |
-| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings          | ✅ Complete |
-| Practical NLP with Hugging Face | Pipelines, tokenizers, model fine-tuning          | ✅ Complete |
+| Module                          | Topics                                            | 
+| ------------------------------- | ------------------------------------------------- | 
+| Introduction to NLP             | NLP foundations, pipeline, tools overview         | 
+| Text Preprocessing              | Tokenization, stemming, lemmatization, NER, regex | 
+| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings          | 
+| Practical NLP with Hugging Face | Pipelines, tokenizers, model fine-tuning          |
 
 ---
 
