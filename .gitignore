@@ -78,7 +78,6 @@ desktop.ini
 *.onnx
 
 # Downloaded datasets
-data/
 datasets/
 *.jsonl
 !requirements.txt

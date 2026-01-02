@@ -6,17 +6,46 @@ This module provides a comprehensive, hands-on exploration of essential text pre
 
 ---
 
+## � Directory Structure
+
+```
+Text Preprocessing/
+├── README.md                          # This file
+├── docs/                              # 📖 Documentation guides
+│   ├── tokenization.md
+│   ├── stemming_lemmatization.md
+│   ├── stop_words.md
+│   ├── pos.md
+│   ├── ner.md
+│   ├── regex.md
+│   └── pipeline.md
+├── notebooks/                         # 💻 Jupyter notebooks
+│   ├── tokenization.ipynb
+│   ├── stemming_lemmatization.ipynb
+│   ├── stop_words.ipynb
+│   ├── pos.ipynb
+│   ├── ner.ipynb
+│   ├── regex.ipynb
+│   └── pipeline.ipynb
+└── data/                              # 📊 Sample datasets
+    ├── doj_press.json
+    ├── news_story.txt
+    └── students.txt
+```
+
+---
+
 ## 📚 Table of Contents
 
-| Topic                        | Documentation                         | Notebook                                | Description                                       |
-| :--------------------------- | :------------------------------------ | :-------------------------------------- | :------------------------------------------------ |
-| **Tokenization**             | [📖 Guide](tokenization.md)           | [💻 Code](tokenization.ipynb)           | Breaking text into words, sentences, and subwords |
-| **Stemming & Lemmatization** | [📖 Guide](stemming_lemmatization.md) | [💻 Code](stemming_lemmatization.ipynb) | Reducing words to their root forms                |
-| **Stop Words Removal**       | [📖 Guide](stop_words.md)             | [💻 Code](stop_words.ipynb)             | Filtering out common, low-information words       |
-| **Part-of-Speech Tagging**   | [📖 Guide](pos.md)                    | [💻 Code](pos.ipynb)                    | Labeling words with grammatical categories        |
-| **Named Entity Recognition** | [📖 Guide](ner.md)                    | [💻 Code](ner.ipynb)                    | Identifying and classifying named entities        |
-| **Regular Expressions**      | [📖 Guide](regex.md)                  | [💻 Code](regex.ipynb)                  | Pattern matching for text extraction              |
-| **Complete Pipeline**        | [📖 Guide](pipeline.md)               | [💻 Code](pipeline.ipynb)               | End-to-end text preprocessing workflow            |
+| Topic                        | Documentation                              | Notebook                                          | Description                                       |
+| :--------------------------- | :----------------------------------------- | :------------------------------------------------ | :------------------------------------------------ |
+| **Tokenization**             | [📖 Guide](docs/tokenization.md)           | [💻 Code](notebooks/tokenization.ipynb)           | Breaking text into words, sentences, and subwords |
+| **Stemming & Lemmatization** | [📖 Guide](docs/stemming_lemmatization.md) | [💻 Code](notebooks/stemming_lemmatization.ipynb) | Reducing words to their root forms                |
+| **Stop Words Removal**       | [📖 Guide](docs/stop_words.md)             | [💻 Code](notebooks/stop_words.ipynb)             | Filtering out common, low-information words       |
+| **Part-of-Speech Tagging**   | [📖 Guide](docs/pos.md)                    | [💻 Code](notebooks/pos.ipynb)                    | Labeling words with grammatical categories        |
+| **Named Entity Recognition** | [📖 Guide](docs/ner.md)                    | [💻 Code](notebooks/ner.ipynb)                    | Identifying and classifying named entities        |
+| **Regular Expressions**      | [📖 Guide](docs/regex.md)                  | [💻 Code](notebooks/regex.ipynb)                  | Pattern matching for text extraction              |
+| **Complete Pipeline**        | [📖 Guide](docs/pipeline.md)               | [💻 Code](notebooks/pipeline.ipynb)               | End-to-end text preprocessing workflow            |
 
 ---
 
