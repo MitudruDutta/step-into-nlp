@@ -11,12 +11,12 @@ A structured, hands-on learning repository for mastering **Natural Language Proc
 
 ## 🎯 What You'll Learn
 
-| Module                          | Topics                                            | Status         |
-| ------------------------------- | ------------------------------------------------- | -------------- |
-| Introduction to NLP             | NLP foundations, pipeline, tools overview         | ✅ Complete    |
-| Text Preprocessing              | Tokenization, stemming, lemmatization, NER, regex | ✅ Complete    |
-| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings          | ✅ Complete    |
-| Practical NLP with Hugging Face | Transformers, fine-tuning, real-world apps        | ⏳ Coming Soon |
+| Module                          | Topics                                            | Status      |
+| ------------------------------- | ------------------------------------------------- | ----------- |
+| Introduction to NLP             | NLP foundations, pipeline, tools overview         | ✅ Complete |
+| Text Preprocessing              | Tokenization, stemming, lemmatization, NER, regex | ✅ Complete |
+| Text Representation             | BoW, TF-IDF, Word2Vec, GloVe, embeddings          | ✅ Complete |
+| Practical NLP with Hugging Face | Pipelines, tokenizers, model fine-tuning          | ✅ Complete |
 
 ---
 
@@ -77,6 +77,18 @@ step-into-nlp/
 │       ├── news_dataset.json
 │       └── spam.csv
 │
+├── 🤗 Hugging Face/
+│   ├── README.md                  # Module overview
+│   ├── docs/                      # 📖 Documentation guides
+│   │   ├── pipelines.md           # Hugging Face pipelines guide
+│   │   ├── tokenizers.md          # Tokenizers deep dive
+│   │   └── model-finetuning.md    # Fine-tuning guide
+│   ├── notebooks/                 # 📓 Jupyter notebooks
+│   │   ├── pipelines.ipynb        # Pipelines tutorial
+│   │   ├── hf_tokenizer.ipynb     # Tokenization deep dive
+│   │   └── model_finetuning.ipynb # Model fine-tuning guide
+│   └── results/                   # 🏆 Training checkpoints
+│
 ├── README.md                      # You are here
 ├── requirements.txt               # Python dependencies
 ├── .gitignore                     # Git ignore rules
@@ -87,11 +99,11 @@ step-into-nlp/
 
 ## 🛤️ Learning Path
 
-```
+```text
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  Introduction   │     │     Text        │     │      Text      │
-│   to NLP ✅     │ ──► │  Preprocessing  │ ──► │ Representation │
-│  (Foundations)  │     │       ✅        │     │       ✅       │
+│  Introduction   │     │     Text        │     │      Text       │
+│   to NLP ✅     │ ──► │  Preprocessing  │ ──► │ Representation  │
+│  (Foundations)  │     │       ✅        │     │       ✅        │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
                                                         │
                         ┌───────────────────────────────┘
@@ -100,7 +112,7 @@ step-into-nlp/
                 │  Practical NLP  │
                 │  with Hugging   │
                 │     Face 🤗     │
-                │  (Coming Soon)  │
+                │       ✅        │
                 └─────────────────┘
 ```
 
@@ -127,6 +139,9 @@ step-into-nlp/
 | [tf_idf.ipynb](Text%20Representation/notebooks/tf_idf.ipynb)                                | Text Representation | TF-IDF vectorization                    |
 | [spacy_word_vectors.ipynb](Text%20Representation/notebooks/spacy_word_vectors.ipynb)        | Text Representation | Word embeddings with spaCy              |
 | [text_classification.ipynb](Text%20Representation/notebooks/text_classification.ipynb)      | Text Representation | End-to-end text classification          |
+| [pipelines.ipynb](Hugging%20Face/notebooks/pipelines.ipynb)                                 | Hugging Face        | Sentiment, NER, translation pipelines   |
+| [hf_tokenizer.ipynb](Hugging%20Face/notebooks/hf_tokenizer.ipynb)                           | Hugging Face        | Tokenization with Hugging Face          |
+| [model_finetuning.ipynb](Hugging%20Face/notebooks/model_finetuning.ipynb)                   | Hugging Face        | Fine-tune BERT on custom data           |
 
 ---
 
@@ -201,7 +216,30 @@ Converting text into numerical representations for machine learning:
 
 ---
 
-## �🛠️ Setup
+## 🤗 Module: Hugging Face ✅
+
+Practical NLP with state-of-the-art transformer models:
+
+| File                                                                      | Description                                |
+| ------------------------------------------------------------------------- | ------------------------------------------ |
+| [README.md](Hugging%20Face/README.md)                                     | Module overview and quick reference        |
+| [docs/pipelines.md](Hugging%20Face/docs/pipelines.md)                     | Pre-built pipelines for common NLP tasks   |
+| [docs/tokenizers.md](Hugging%20Face/docs/tokenizers.md)                   | Deep dive into Hugging Face tokenizers     |
+| [docs/model-finetuning.md](Hugging%20Face/docs/model-finetuning.md)       | Complete guide to fine-tuning transformers |
+| [pipelines.ipynb](Hugging%20Face/notebooks/pipelines.ipynb)               | Hands-on pipelines tutorial                |
+| [hf_tokenizer.ipynb](Hugging%20Face/notebooks/hf_tokenizer.ipynb)         | Tokenization practical examples            |
+| [model_finetuning.ipynb](Hugging%20Face/notebooks/model_finetuning.ipynb) | Fine-tune BERT on GLUE MRPC dataset        |
+
+**Key Topics:**
+
+- **Pipelines** — Sentiment analysis, NER, translation, summarization, zero-shot classification
+- **Tokenizers** — BPE, WordPiece, encoding/decoding, special tokens
+- **Fine-Tuning** — Custom training with Trainer API, GLUE benchmark
+- **Model Hub** — Access 100,000+ pre-trained models
+
+---
+
+## 🛠️ Setup
 
 ### Prerequisites
 

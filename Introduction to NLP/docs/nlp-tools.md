@@ -10,7 +10,7 @@ This guide provides an in-depth exploration of the major NLP libraries, their st
 
 ## 📊 Tool Categories at a Glance
 
-```
+```text
                            NLP Tools Landscape
     ┌────────────────────────────────────────────────────────────┐
     │                                                            │
@@ -835,7 +835,7 @@ for review in reviews[:2]:
 
 ### Decision Flowchart
 
-```
+```text
                     What do you need?
                           │
          ┌────────────────┼────────────────┐

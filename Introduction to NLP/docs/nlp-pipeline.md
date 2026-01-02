@@ -12,7 +12,7 @@ This guide provides an in-depth look at each stage of the NLP pipeline, from dat
 
 ### High-Level View
 
-```
+```text
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────────┐
 │ Data Acquisition│───▶│  Preprocessing   │───▶│ Feature Extraction  │
 └─────────────────┘    └──────────────────┘    └─────────────────────┘

@@ -97,7 +97,7 @@ Machine learning models learn patterns from large amounts of text data to:
 
 ### Application Areas
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                        NLP Applications                         │
 ├─────────────────┬─────────────────┬─────────────────────────────┤
@@ -132,7 +132,7 @@ The introduction of the **Transformer architecture** (2017) revolutionized NLP:
 - **GPT Series (2018-2024):** Generative capabilities, conversational AI
 - **T5, LLaMA, Claude:** Specialized models for various tasks
 
-```
+```text
 Traditional NLP                Modern NLP (Transformers)
 ─────────────                  ─────────────────────────
 Feature Engineering    →       Automatic Feature Learning
@@ -184,7 +184,7 @@ Limited Context        →       Long-Range Dependencies
 
 ### Learning Path
 
-```
+```text
 Week 1-2: Python + Text Processing Basics
     ↓
 Week 3-4: Classical NLP (Tokenization, POS, NER)
